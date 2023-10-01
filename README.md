@@ -1,4 +1,4 @@
-[![Python application test with Github Actions](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml/badge.svg)](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml)
+[![Python application test with Github Actions](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml/badge.svg)](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml) - https://codebuild.eu-north-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiU0hDSmNJQUpaLzVnS2dFRHNGL0RvZkdFczRwa2t2Qy9rU21GQzdRYjBKVm1PL2tOQ1FFMGVNRTFWbTduL1EvZExUYm1OODM1ME9yMlVBS25XRjJsc2NZPSIsIml2UGFyYW1ldGVyU3BlYyI6InNFbmFFUzkwTDBuZWlDcWciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
 
 # yt-noah-python-for-devops-1023
 Python for devops tutorial
