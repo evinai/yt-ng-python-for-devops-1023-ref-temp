@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml/badge.svg)](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml)
+
 # yt-noah-python-for-devops-1023
 Python for devops tutorial
 ## Structure for a software engineering project
@@ -13,3 +15,4 @@ Python for devops tutorial
 3- Create empty files: `Makefile`, `requirements.txt`, `main.py`, `Dockerfile`, `mylib/__init__.py`
 4- Populate `Makefile`
 5- `pip freeze | less` to get versions paste to requirements.txt
+6- Create devops.yml file for Continuous integration in githubs actions
