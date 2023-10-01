@@ -19,3 +19,5 @@ Python for devops tutorial
 4. Populate `Makefile`
 5. `pip freeze | less` to get versions paste to requirements.txt
 6. Setup Continuous Integration i.e. check for issues like lint errors Create devops.yml file for Continuous integration in githubs actions
+
+7. Build cli using Python Fire library `./cli-fire.py --help` to test logic. 
