@@ -31,4 +31,4 @@ deploy:
 	docker tag evinai-fast-api-wiki:latest 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
 
 
-all: install lint test deploy
+all: install post-install lint test deploy
