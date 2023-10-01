@@ -1,40 +1,24 @@
-from fastapi import FastAPI
-import uvicorn
-from mylib.logic import search_wiki
-from mylib.logic import wiki as wikilogic
-from mylib.logic import phrase as wikiphrases
+from fastapi.testclient import TestClient
+from main import app
 
-app = FastAPI()
+client = TestClient(app)
 
 
-@app.get("/")
-async def root():
-    return {"message": "Wikipedia API.  Call /search or /wiki"}
+def test_read_main():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Wikipedia API.  Call /search or /wiki"}
 
 
-@app.get("/search/{value}")
-async def search(value: str):
-    """Page to search in wikipedia"""
-
-    result = search_wiki(value)
-    return {"result": result}
-
-
-@app.get("/wiki/{name}")
-async def wiki(name: str):
-    """Retrieve wikipedia page"""
-
-    result = wikilogic(name)
-    return {"result": result}
-
-
-@app.get("/phrase/{name}")
-async def phrase(name: str):
-    """Retrieve wikipedia page and return phrases"""
-
-    result = wikiphrases(name)
-    return {"result": result}
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, port=8080, host="0.0.0.0")
+def test_read_phrase():
+    response = client.get("/phrase/Barack Obama")
+    assert response.status_code == 200
+    assert response.json() == {
+        "result": [
+            "barack hussein obama ii",
+            "bə-rahk hoo-sayn oh-bah-mə",
+            "august",
+            "american politician",
+            "44th president",
+        ]
+    }
