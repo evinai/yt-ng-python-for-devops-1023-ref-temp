@@ -1,10 +1,8 @@
 from fastapi import FastAPI
 import uvicorn
-
 from mylib.logic import search_wiki
 from mylib.logic import wiki as wikilogic
-from mylib.logic import phrase as wiki_phrases
-
+from mylib.logic import phrase as wikiphrases
 
 app = FastAPI()
 
@@ -34,7 +32,7 @@ async def wiki(name: str):
 async def phrase(name: str):
     """Retrieve wikipedia page and return phrases"""
 
-    result = wiki_phrases(name)
+    result = wikiphrases(name)
     return {"result": result}
 
 

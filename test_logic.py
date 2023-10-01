@@ -1,8 +1,5 @@
-from mylib.logic import *
+from mylib.logic import wiki
 
 
 def test_wiki():
-    assert "Mustafa" in wiki()
-
-# def test_searchwiki():
-#     assert in search_wiki()
+    assert "god" in wiki()
