@@ -26,10 +26,10 @@ run:
 
 deploy:
 	#deploy - authenticate to aws
-	aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 879166207429.dkr.ecr.eu-north-1.amazonaws.com
-	docker build -t evinai-fast-api-wiki .
-	docker tag evinai-fast-api-wiki:latest 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
-	docker push 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
+	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 879166207429.dkr.ecr.us-east-1.amazonaws.com
+	docker build -t wiki .
+	docker tag wiki:latest 879166207429.dkr.ecr.us-east-1.amazonaws.com/wiki:latest
+	docker push 879166207429.dkr.ecr.us-east-1.amazonaws.com/wiki:latest
 
 
 
