@@ -28,7 +28,8 @@ deploy:
 	aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 879166207429.dkr.ecr.eu-north-1.amazonaws.com
 	docker build -t evinai-fast-api-wiki .
 	docker tag evinai-fast-api-wiki:latest 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
-	docker tag evinai-fast-api-wiki:latest 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
+	docker push 879166207429.dkr.ecr.eu-north-1.amazonaws.com/evinai-fast-api-wiki:latest
+
 
 
 all: install post-install lint test deploy
