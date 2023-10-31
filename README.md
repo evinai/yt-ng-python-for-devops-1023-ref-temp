@@ -1,5 +1,5 @@
 [![Python application test with Github Actions](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml/badge.svg)](https://github.com/evinai/yt-noah-python-for-devops-1023/actions/workflows/devops.yml)
-[![https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieVVWOE1tQkFwTkZoZ3kxdW9xeXpGWUFzdTh4VDM1bDNJQlYxOUJWSFdocCtrOWNFbC95UytxcVQ2Z05xcjhpaXNiMVhhSzFEdXlDdm9BU3E0L210c29FPSIsIml2UGFyYW1ldGVyU3BlYyI6InFzOThsOHJPRlIxbmR6VTQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main]
+https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieVVWOE1tQkFwTkZoZ3kxdW9xeXpGWUFzdTh4VDM1bDNJQlYxOUJWSFdocCtrOWNFbC95UytxcVQ2Z05xcjhpaXNiMVhhSzFEdXlDdm9BU3E0L210c29FPSIsIml2UGFyYW1ldGVyU3BlYyI6InFzOThsOHJPRlIxbmR6VTQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
 # yt-noah-python-for-devops-1023
 Python for devops tutorial
 ## Structure for a software engineering project
